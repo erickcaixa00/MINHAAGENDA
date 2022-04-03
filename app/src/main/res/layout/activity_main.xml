@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="*NOME:"
+            android:inputType="text"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="*TELEFONE:"
+            android:inputType="number"
+            android:maxLength="14"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CEP:"
+            android:inputType="number"
+            android:maxLength="8"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="LAGRADOURO:"
+            android:inputType="textPostalAddress"
+            android:maxEms="10"
+            android:maxLength="100"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="NÚMERO:"
+            android:inputType="number"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="BAIRRO:"
+            android:inputType="text"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="COMPLEMENTO:"
+            android:inputType="text"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CIDADE:"
+            android:inputType="text"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ESTADO:"
+            android:inputType="text"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DATA:"
+            android:inputType="date"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
